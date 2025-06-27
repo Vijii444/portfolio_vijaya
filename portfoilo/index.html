@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li style="font-weight:bold; font-size:1.2em;">VijayaPothula</li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-animation">
+                <span class="wave">👋</span>
+                <span id="typed-text"></span>
+                <div class="tech-icons-row moving">
+                    <span class="tech-icon">&lt;/&gt;</span>
+                    <span class="tech-icon">☁️</span>
+                    <span class="tech-icon">🤖</span>
+                    <span class="tech-icon">🗄️</span>
+                </div>
+            </div>
+            <p>A showcase of my work and skills.</p>
+            <button id="walkthrough-btn">Walk Through My Work</button>
+        </section>
+
+        <!-- Game Level Selector -->
+        <section id="level-selector">
+            <h2 class="level-title">🕹️ Welcome! Select Your Level</h2>
+            <div class="levels">
+                <div class="level-card" data-target="#about">
+                    <span class="level-num">Level 1</span>
+                    <span class="level-icon">👤</span>
+                    <span class="level-name">Meet Vijaya</span>
+                </div>
+                <div class="level-card" data-target="#projects">
+                    <span class="level-num">Level 2</span>
+                    <span class="level-icon">🗝️</span>
+                    <span class="level-name">Projects Unlocked</span>
+                </div>
+                <div class="level-card" data-target="#soft-skills">
+                    <span class="level-num">Level 3</span>
+                    <span class="level-icon">🤝</span>
+                    <span class="level-name">Soft Skills</span>
+                </div>
+                <div class="level-card" data-target="#live-resume">
+                    <span class="level-num">Level 4</span>
+                    <span class="level-icon">📄</span>
+                    <span class="level-name">Live Resume</span>
+                </div>
+                <div class="level-card" data-target="#contact">
+                    <span class="level-num">Level 5</span>
+                    <span class="level-icon">📬</span>
+                    <span class="level-name">Contact</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a punctual and motivated individual who is able to work in a busy environment and produce high standards of work. I am always enthusiastic to learn and undertake new challenges. I am currently looking for an opportunity to utilize my technical skills in a challenging working environment and become a valuable asset to the organization that I work for.</p>
+        </section>
+
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="project-cards">
+                <div class="project-card" data-project="chatbot">
+                    <div class="project-title">ChatBot using WebSocket</div>
+                    <div class="project-details">
+                        <p><strong>Project Goal:</strong> Developed a chatbot application leveraging Web Socket technology for real-time communication.</p>
+                        <ul>
+                            <li>Developed a real-time chatbot using Web Socket for instant communication.</li>
+                            <li>Implemented secure, efficient two-way messaging with optimized performance.</li>
+                            <li>Designed a user-friendly interface for seamless interaction.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements & Certifications</h2>
+            <ul>
+                <li>NCAT Ranked <strong>5264</strong> nationally in <strong>NACT (National Assessment for Competence in Technology)</strong> – 2025</li>
+                <li><strong>Soft Skills:</strong> Quick learner, Self-motivated, Disciplined, Dedicated, Teamwork</li>
+                <li>Full-Stack Web Development Certification – CODE CRAFT</li>
+                <li>Artificial Intelligence Course – Accenture</li>
+            </ul>
+        </section>
+
+        <!-- Add Salesforce Quest and Entrepreneurship Arena sections -->
+        <section id="soft-skills">
+            <h2>Soft Skills</h2>
+            <ul>
+                <li>Quick learner</li>
+                <li>Self-motivated</li>
+                <li>Disciplined</li>
+                <li>Dedicated</li>
+                <li>Teamwork</li>
+                <li>Adaptable</li>
+                <li>Enthusiastic to learn</li>
+            </ul>
+        </section>
+
+        <section id="live-resume">
+            <h2>Live Resume</h2>
+            <a href="resume.pdf.pdf" target="_blank" class="resume-btn">View My Resume (PDF)</a>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: <a href="mailto:vijayapothula04@gmail.com">vijayapothula04@gmail.com</a></li>
+                <li>Phone: <a href="tel:7013576476">7013576476</a></li>
+                <li>Location: Gantavaripalem, India</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/vijayapothula" target="_blank">www.linkedin.com/in/vijayapothula</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 VijayaPothula</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
